@@ -1,3 +1,5 @@
+This Coinbase-internal fork is owned by the Platform/weipay team.
+
 # Jimson
 ### JSON-RPC 2.0 Client and Server for Ruby
 [![Build Status](https://travis-ci.org/chriskite/jimson.svg?branch=master)](https://travis-ci.org/chriskite/jimson)
@@ -11,7 +13,7 @@
     require 'jimson'
 
     class MyHandler
-      extend Jimson::Handler 
+      extend Jimson::Handler
 
       def sum(a,b)
         a + b
@@ -26,4 +28,3 @@ Jimson uses multi\_json, so you can load the JSON library of your choice in your
 
 For example, require the 'json' gem in your application:
     require 'json'
-
